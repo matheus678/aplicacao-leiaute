@@ -1,0 +1,103 @@
+.hg-conteudo {
+    background-color: green;
+    display: flex;
+    flex-flow: column;
+}
+
+.hg-conteudo > main {
+    background-color: cyan;
+    flex: 1;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1440px;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    font-family: 'Grenze Gotisch', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    background-size: contain;
+    background-position: left;
+    background-color: salmon;
+}
+
+header {
+    display: block;
+}
+
+.hg-conteudo {
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+}
+
+.hg-conteudo > nav {
+    order: -1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    flex: 00 200px;
+}
+
+nav{
+    display: block;
+}
+
+#inicio{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Grenze Gotisch', sans-serif;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.hg-conteudo > main {
+    flex: 1;
+    background-image: url(133144_Papel-de-Parede-Natureza--133144_1440x900.jpg);
+}
+
+@media (min-width: 768px) {
+    .hg-conteudo  {
+        flex-flow: row;
+    }
+
+h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Goudy Bookletter 1911', sans-serif;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+.wiki{
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    margin-left: 25px;
+    max-width: 100%;
+}
+
+#dev{
+    padding: 20px;
+    width: 200px;
+    height: 80px;
+    border-radius: 10%;
+    max-width: 100%;
+}
+
+#etec{
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    margin-left: 25px;
+    max-width: 100%;
+}
+ 
+}
